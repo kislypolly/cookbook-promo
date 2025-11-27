@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Книга рецептов — промо‑сайт</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="hero" id="top">
+  <div class="container hero-content">
+    <div>
+      <h1>Книга рецептов</h1>
+      <p class="hero-subtitle">
+        Удобное приложение для поиска рецептов по названию и ингредиентам.
+      </p>
+      <div class="hero-buttons">
+        <a href="#demo" class="btn primary">Посмотреть демо</a>
+        <a href="#features" class="btn secondary">Узнать больше</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="https://picsum.photos/seed/foodhero/500/300" alt="Пример интерфейса приложения">
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- Блок возможностей -->
+  <section id="features" class="section">
+    <div class="container">
+      <h2>Возможности приложения</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <h3>Поиск по названию</h3>
+          <p>Быстрый поиск рецептов по названию блюда.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Поиск по ингредиентам</h3>
+          <p>Находи рецепты из того, что есть в холодильнике.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Детальная карточка рецепта</h3>
+          <p>Ингредиенты, пошаговая инструкция и фото блюда.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Категории блюд</h3>
+          <p>Завтраки, супы, десерты и многое другое.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Избранное</h3>
+          <p>Сохраняй любимые рецепты и возвращайся к ним в один клик.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Удобный интерфейс</h3>
+          <p>Минимизм, крупные фото и понятная навигация.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Блок преимуществ -->
+  <section id="benefits" class="section section-alt">
+    <div class="container">
+      <h2>Преимущества</h2>
+      <ul class="benefits-list">
+        <li>Экономия времени за счёт умного поиска рецептов.</li>
+        <li>Удобная структура: категории, фильтры и избранное.</li>
+        <li>Интерфейс, который приятно использовать каждый день.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Скриншоты -->
+  <section id="screenshots" class="section">
+    <div class="container">
+      <h2>Скриншоты интерфейса</h2>
+      <div class="screenshots-grid">
+        <img src="https://picsum.photos/seed/recipe1/300/200" alt="Скриншот поиска рецептов">
+        <img src="https://picsum.photos/seed/recipe2/300/200" alt="Скриншот детального рецепта">
+        <img src="https://picsum.photos/seed/recipe3/300/200" alt="Скриншот избранного">
+      </div>
+    </div>
+  </section>
+
+  <!-- Интерактивное демо -->
+  <section id="demo" class="section section-alt">
+    <div class="container demo">
+      <h2>Демо: поиск рецептов</h2>
+
+      <div class="demo-controls">
+        <input type="text" id="searchInput" placeholder="Поиск по названию или ингредиенту...">
+        <select id="categorySelect">
+          <option value="all">Все категории</option>
+        </select>
+      </div>
+
+      <div class="demo-layout">
+        <div class="recipes-list" id="recipesList">
+          <!-- Карточки рецептов будут рендериться через JS -->
+        </div>
+        <aside class="recipe-detail" id="recipeDetail">
+          <p class="muted">Выберите рецепт, чтобы увидеть подробности.</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- О нас / контакты -->
+  <section id="about" class="section">
+    <div class="container about">
+      <div>
+        <h2>О команде</h2>
+        <p>
+          Мы небольшая команда разработчиков и любителей кулинарии,
+          которые хотят сделать поиск рецептов максимально удобным.
+        </p>
+      </div>
+      <div>
+        <h3>Контакты</h3>
+        <ul class="contacts-list">
+          <li>Email: team@cookbook.app</li>
+          <li>GitHub: github.com/example-cookbook</li>
+          <li>Telegram: @cookbook_app</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span>© 2025 Книга рецептов</span>
+    <a href="#top">Наверх ↑</a>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
