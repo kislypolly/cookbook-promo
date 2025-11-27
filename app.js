@@ -4,7 +4,7 @@ const recipes = [
     id: 1,
     title: "Паста с томатным соусом",
     category: "Обед",
-    image: "https://picsum.photos/seed/pasta/300/200",
+    image: "https://www.perplexity.ai/search/pasta-b_jrHOHvTH.jI9Swm9sjWQ?sm=i/300/200",
     ingredients: ["Спагетти", "Томаты", "Чеснок", "Оливковое масло", "Базилик"],
     steps: [
       "Отварить пасту до состояния аль денте.",
