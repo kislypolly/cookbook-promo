@@ -4,7 +4,7 @@ const recipes = [
     id: 1,
     title: "Паста с томатным соусом",
     category: "Обед",
-    image: "https://loremflickr.com/300/200",
+    image: "img/pasta",
     ingredients: ["Спагетти", "Томаты", "Чеснок", "Оливковое масло", "Базилик"],
     steps: [
       "Отварить пасту до состояния аль денте.",
@@ -17,7 +17,7 @@ const recipes = [
     id: 2,
     title: "Овсянка с ягодами",
     category: "Завтрак",
-    image: "https://picsum.photos/seed/oatmeal/300/200",
+    image: "img/porridge",
     ingredients: ["Овсяные хлопья", "Молоко или вода", "Ягоды", "Мёд"],
     steps: [
       "Сварить овсянку на молоке или воде.",
@@ -29,7 +29,7 @@ const recipes = [
     id: 3,
     title: "Цезарь с курицей",
     category: "Обед",
-    image: "https://picsum.photos/seed/caesar/300/200",
+    image: "img/caesar",
     ingredients: ["Куриное филе", "Салат Ромэн", "Сухарики", "Сыр Пармезан", "Соус Цезарь"],
     steps: [
       "Обжарить куриное филе и нарезать полосками.",
@@ -41,7 +41,7 @@ const recipes = [
     id: 4,
     title: "Шоколадный брауни",
     category: "Десерт",
-    image: "https://picsum.photos/seed/brownie/300/200",
+    image: "img/brownie",
     ingredients: ["Шоколад", "Масло", "Сахар", "Яйца", "Мука"],
     steps: [
       "Растопить шоколад с маслом.",
